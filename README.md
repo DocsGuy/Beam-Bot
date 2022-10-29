@@ -21,6 +21,6 @@ pip install -r requirements.txt
 ```
 Wenn Sie !cookie (roblox cookie) eingeben,
 wird ein Fake-Checker erstellt und es wartet 5 sekunden danach sendet es eine nachricht (wenn es in der Nachricht einen Cookie gibt) 
-und sag "✅ Erfolg! Ihr cookie wird ihnen in kürze gesendet". 
+und sagt "✅ Erfolg! Ihr cookie wird ihnen in kürze gesendet". 
 Dann nach 2 sekunden wird ein generierter cookie gesendet
 ```
