@@ -2,6 +2,8 @@
 - Dies ist ein einfacher Beam-Bot, den ich gemacht habe
 
 # Einrichten
+- Python benötigt !
+- https://www.python.org/
 ```python
 pip install -r requirements.txt 
 ```
