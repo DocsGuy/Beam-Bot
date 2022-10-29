@@ -26,3 +26,5 @@ wird ein Fake-Checker erstellt und es wartet 5 sekunden danach sendet es eine na
 und sagt "✅ Erfolg! Ihr cookie wird ihnen in kürze gesendet". 
 Dann nach 2 sekunden wird ein generierter cookie gesendet
 ```
+# Was ist ein Beispiel der richtigen Nutzung?
+- https://www.youtube.com/watch?v=vtoKRe4zG8g
