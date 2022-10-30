@@ -28,6 +28,3 @@ Then after 2 seconds a generated cookie is sent
 ```
 # What is an example of correct usage?
 - https://www.youtube.com/watch?v=vtoKRe4zG8g
-
-
-Translated with www.DeepL.com/Translator (free version)
