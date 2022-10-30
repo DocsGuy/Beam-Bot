@@ -2,5 +2,6 @@
     "Token": "",
     "Webhook": "",
     "Prefix":"",
-    "Company":"Idk a name"
+    "Company":"Idk a name",
+    "SaveCookies": false
 }
