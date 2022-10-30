@@ -1,3 +1,8 @@
+## Bot Update SOON!
+
+
+
+
 # Beam-Bot
 - Dies ist ein einfacher Beam-Bot, den ich gemacht habe
 
