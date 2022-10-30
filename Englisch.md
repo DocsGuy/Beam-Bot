@@ -4,7 +4,7 @@
 # Setup
 - Python required !
 - https://www.python.org/
-``python
+```python
 pip install -r requirements.txt 
 ```
 - Settings:
