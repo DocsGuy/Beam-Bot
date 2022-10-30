@@ -30,4 +30,3 @@ pip install -r requirements.txt
 - https://www.youtube.com/watch?v=vtoKRe4zG8g
 
 
-Переведено с помощью www.DeepL.com/Translator (бесплатная версия)
