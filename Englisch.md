@@ -16,6 +16,7 @@ pip install -r requirements.txt
 ```
 
 # Functions
+```
 - Integrated cookie sender to the webhook
 - Semi-cookie checker
 - Fake cookie thing
