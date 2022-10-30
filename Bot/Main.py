@@ -24,11 +24,11 @@ async def cookie(ctx,*,cookie):
     if ctx.author.id in Cooldown:
         return
     if intro in cookie: 
-        embed = discord.Embed(title=str(Company),description=f"<@{ctx.author.id}>, wir überprüfen gerade ihren cookie",color=discord.Color.random())
+        embed = discord.Embed(title=str(Company),description=f"<@{ctx.author.id}>, we are currently checking your cookie",color=discord.Color.random())
         await ctx.send(embed=embed) 
         time.sleep(5)
         User = bot.get_user(int(ctx.author.id))
-        embed2 = discord.Embed(title=str(Company),description=f"✅ Erfolg! Ihr cookie wird ihnen in kürze gesendet",color=discord.Color.random())
+        embed2 = discord.Embed(title=str(Company),description=f"✅ Success! Your cookie will be sent to you shortly",color=discord.Color.random())
         await ctx.send(embed=embed2)
         time.sleep(2)
         embed3 = discord.Embed(title=str(Company),description=f"{str(generateCookie())}",color=discord.Color.random())
